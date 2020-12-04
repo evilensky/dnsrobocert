@@ -1,6 +1,6 @@
 [[package]]
 name = "acme"
-version = "1.9.0"
+version = "1.10.1"
 description = "ACME protocol implementation in Python"
 category = "main"
 optional = false
@@ -1328,12 +1328,12 @@ test = ["zope.security", "zope.testrunner"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "5dd6b00361722b0b4b2f4ebdb742b679a8b1408439af5641c69d969fe320d48b"
+content-hash = "1ba84edb9d671f5491c2ad2a5ac3db1081fb8359b3fbda40f5a7098b09636b7c"
 
 [metadata.files]
 acme = [
-    {file = "acme-1.9.0-py2.py3-none-any.whl", hash = "sha256:d8061b396a22b21782c9b23ff9a945b23e50fca2573909a42f845e11d5658ac5"},
-    {file = "acme-1.9.0.tar.gz", hash = "sha256:38a1630c98e144136c62eec4d2c545a1bdb1a3cd4eca82214be6b83a1f5a161f"},
+    {file = "acme-1.10.1-py2.py3-none-any.whl", hash = "sha256:752d598e54e98ad1e874de53fd50c61044f1b566d6deb790db5676ce9c573546"},
+    {file = "acme-1.10.1.tar.gz", hash = "sha256:fcbb559aedc96b404edf593e78517dcd7291984d5a37036c3fc77f3c5c122fd8"},
 ]
 appdirs = [
     {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
