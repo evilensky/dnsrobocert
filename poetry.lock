@@ -137,7 +137,7 @@ python-versions = "*"
 
 [[package]]
 name = "certbot"
-version = "1.9.0"
+version = "1.10.1"
 description = "ACME client"
 category = "main"
 optional = false
@@ -1328,7 +1328,7 @@ test = ["zope.security", "zope.testrunner"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "5dd6b00361722b0b4b2f4ebdb742b679a8b1408439af5641c69d969fe320d48b"
+content-hash = "6ecdfcb7d9bfbd73fabf967796ed5cc21a9519b421b85ec1b22b1652f60c46ca"
 
 [metadata.files]
 acme = [
@@ -1372,8 +1372,8 @@ cached-property = [
     {file = "cached_property-1.5.2-py2.py3-none-any.whl", hash = "sha256:df4f613cf7ad9a588cc381aaf4a512d26265ecebd5eb9e1ba12f1319eb85a6a0"},
 ]
 certbot = [
-    {file = "certbot-1.9.0-py2.py3-none-any.whl", hash = "sha256:d5a804d32e471050921f7b39ed9859e2e9de02824176ed78f57266222036b53a"},
-    {file = "certbot-1.9.0.tar.gz", hash = "sha256:2ff9bf7d9af381c7efee22dec2dd6938d9d8fddcc9e11682b86e734164a30b57"},
+    {file = "certbot-1.10.1-py2.py3-none-any.whl", hash = "sha256:011ac980fa21b9f29e02c9b8d8b86e8a4bf4670b51b6ad91656e401e9d2d2231"},
+    {file = "certbot-1.10.1.tar.gz", hash = "sha256:0d9ee3fc09e0d03b2d1b1f1c4916e61ecfc6904b4216ddef4e6a5ca1424d9cb7"},
 ]
 certifi = [
     {file = "certifi-2020.11.8-py2.py3-none-any.whl", hash = "sha256:1f422849db327d534e3d0c5f02a263458c3955ec0aae4ff09b95f195c59f4edd"},
