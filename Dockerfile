@@ -18,7 +18,7 @@ ENV CERTS_PATH /etc/letsencrypt
 
 RUN apk add --no-cache docker-cli bash \
  libffi-dev gcc musl-dev libxml2-dev libxslt-dev \
- openssl-dev \
+ openssl-dev rsync \
  && python -m pip install --upgrade pip wheel \
  # Under i686 arch emulated with QEMU, uname -m still returns x86_64. Workaround by retrying explicitly with i686 wheels.
  #&& (pip install --no-deps /tmp/dnsrobocert/precompiled-wheels/*_$(uname -m).whl || pip install --no-deps /tmp/dnsrobocert/precompiled-wheels/*_i686.whl) \
