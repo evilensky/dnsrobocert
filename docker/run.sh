@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ -f /etc/dnsrobocert/archive.tar ]
+then
+  tar xf /etc/dnsrobocert/archive.tar -C /
+fi
+
 if [ -n "$TIMEZONE" ]
 then
   echo "Waiting for DNS"
